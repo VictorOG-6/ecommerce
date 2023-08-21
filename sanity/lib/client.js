@@ -6,5 +6,5 @@ export const client = createClient({
   apiVersion,
   dataset: 'production',
   projectId: 'xl8aestu',
-  useCdn,
+  useCdn: true,
 })

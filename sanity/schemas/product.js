@@ -7,10 +7,12 @@ const product = {
         name: 'image',
         title: 'Image',
         type: 'array',
-        of: [{ type: 'image' }],
+        of: [{ type: 'image',
         options: {
           hotspot: true,
-        }
+        },
+      },],
+        
       },
       { 
         name: 'name',
